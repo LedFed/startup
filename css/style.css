@@ -997,7 +997,6 @@
 
 .info {
   background-color: #f8f8f8;
-  height: 100vh;
   min-height: 850px;
 }
 
@@ -1198,18 +1197,33 @@
 }
 
 @media (max-width: 560px) {
+  .info_items {
+    margin-top: 30px;
+  }
   .info_glav {
     flex-direction: column;
+    margin-top: 0;
   }
   .info_column {
     width: 100%;
+  }
+  .info_column:first-child {
+    margin-bottom: 40px;
+  }
+  .info_hover {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
   }
   .info_social_item {
     height: 28px;
     width: 28px;
   }
+  .info_social {
+    width: 95%;
+  }
   .info_parag {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
   }
   .services_title {
