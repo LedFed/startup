@@ -86,4 +86,6 @@ $(function(){
     //     $("#nav").toggleClass("active");
         
     // });  
+    new WOW().init();
+
 });
